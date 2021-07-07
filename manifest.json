@@ -1,0 +1,23 @@
+{
+  "name": "d-anime-pip",
+  "description": "Chrome extension to open Picture-in-Picture for https://anime.dmkt-sp.jp",
+  "version": "0.1",
+  "manifest_version": 3,
+  "permissions": ["scripting", "tabs"],
+  "host_permissions": ["https://anime.dmkt-sp.jp/"],
+  "action": {
+    "default_popup": "./public/popup.html",
+    "default_icon": {
+      "16": "/images/icon.png",
+      "32": "/images/icon.png",
+      "48": "/images/icon.png",
+      "128": "/images/icon.png"
+    }
+  },
+  "icons": {
+    "16": "/images/icon.png",
+    "32": "/images/icon.png",
+    "48": "/images/icon.png",
+    "128": "/images/icon.png"
+  }
+}
